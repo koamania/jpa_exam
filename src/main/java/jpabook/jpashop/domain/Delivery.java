@@ -20,6 +20,6 @@ public class Delivery {
     @Embedded
     private Address address;
     @Enumerated(EnumType.STRING)
-    private DeliveryStatus deliveryStatus; // READY, COMP
+    private DeliveryStatus status; // READY, COMP
 
 }
